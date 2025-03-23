@@ -1,0 +1,41 @@
+body{
+    font-family:Arial,sans-serif;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:50px;
+    
+}
+
+header:hover{
+    background:#555;
+
+}
+
+.Projects{
+    margin:20px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:10px auto;
+    width:250;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    transition:transform 0.3s;
+}
+
+.project-card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#333;
+    color:white;
+    padding:20px;
+}
